@@ -33,9 +33,6 @@ alias test="pest --no-coverage"
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run dev"
 
-# Docker
-alias docker-composer="docker-compose"
-
 # SQL Server
 alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
@@ -57,3 +54,18 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+
+# Docker / Colima
+alias d="docker"
+alias dc="docker compose"
+alias dps="docker ps"
+alias cup="colima start"
+alias cdown="colima stop"
+
+# pnpm
+alias p="pnpm"
+alias pi="pnpm install"
+alias pd="pnpm dev"
+
+# Python
+alias py="uv run python"
