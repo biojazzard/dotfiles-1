@@ -1,7 +1,3 @@
-# Taps
-tap 'homebrew/cask-versions'
-tap 'stripe/stripe-cli'
-
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
@@ -16,59 +12,50 @@ brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
+brew 'fzf'
+brew 'ripgrep'
+brew 'wget'
+
+# Python
+brew 'uv'
+
+# Docker without Docker Desktop
+brew 'docker'
+brew 'docker-compose'
+brew 'docker-buildx'
+brew 'colima'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
 brew 'optipng'
 brew 'pngquant'
-brew 'svgo'
 brew 'gifsicle'
 
 # Development
 brew 'imagemagick'
-brew 'yarn'
 
 # Apps
-cask '1password'
-brew '1password-cli'
+
 cask 'antigravity-cli'
 cask 'caffeine'
-cask 'chatgpt'
-cask 'claude'
-cask 'claude-code'
 cask 'cleanshot'
 cask 'codex'
-cask 'codex-app'
 cask 'copilot-cli'
 cask 'cyberduck'
-cask 'discord'
-cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
-cask 'google-chrome'
 cask 'helo'
 cask 'herd'
-cask 'httpie'
+cask 'httpie-desktop'
 cask 'imageoptim'
 cask 'loom'
 cask 'pastebot'
-cask 'reflex'
-cask 'screen-studio'
-cask 'slack'
+cask 'reflex-app'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
-cask 'zoom'
-
-# Mac App Store
-mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
